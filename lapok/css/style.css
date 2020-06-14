@@ -1,9 +1,28 @@
-@font-face {
-    font-family: "air";
-    src: url("fonts/Airborne_86.ttf");
-    font-weight: 700;
-}
-        h1 {color:blueviolet; font-size: 72px; font-family: "air"}
-    
-        p {color: blue; font-family: "air"; font-size: 24px;}
+@font-face {font-family: "air";
+            src: url("fonts/Airborne_86.ttf");
+            font-weight: 700;}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap');
+
+html {text-transform: lowercase;}
+
+
+        h1 {color:blueviolet;
+             font-size: 72px; 
+             text-transform: lowercase;
+              font-family: "air";
+             text-align: justify;}
+
+             
+        #bioHeader { color: lawngreen;font-family:  "air" ;}
+        #skillsHeader {color:green;font-family: "air";}
+        
+        p {color: blue; 
+            
+            font-family: 'Roboto';
+            text-align: justify;
+            text-transform: uppercase;
+            font-size: 24px;
+            line-height: 24px;
+            font-weight: bolder;}
+             
 img {width: 240px }
