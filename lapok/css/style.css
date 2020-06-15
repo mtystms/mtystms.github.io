@@ -16,13 +16,26 @@ html {text-transform: lowercase;}
         #bioHeader {color: lawngreen;font-family:  "air";}
         #skillsHeader {color:green;font-family: "air";}
         
-        p {color: blue; 
-            
+        .content {color: blue; }
+        .bold { font-weight:bold ;}  
+        .img-div {background-color: maroon;}
+        .light {background-color: mediumorchid;}
+        p {
             font-family: 'Roboto';
             text-align: justify;
-           text-transform: none;
+            text-transform: none;
             font-size: 24px;
-            line-height: 24px;
-            font-weight: normal;}
-             
-img {width: 240px; margin: 48px;;}
+            
+            font-weight: normal;
+            margin: 10px 20px 10px 20px;
+            max-width: 75%;
+            min-width: 60%;}
+img {width: 14.6%; 
+     margin: 5%;
+     box-shadow: 3px 3px 14px blue;}
+     #img-1 {
+          position:  ;
+          top: ;
+          display: ;
+          visibility: ;
+     }
